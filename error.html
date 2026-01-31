@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h2>Error Handling in Javascript</h2>
+
+        <p>Eg to dsplay error</p>
+
+        <p id="error message"></p>
+
+        <script>
+            try{
+                addalert("welcomeguest!");
+            }
+            catch(err) {
+                document.getElementById("error_message").innerHTML = err.message;
+            }
+        </script>
+    </body>
+</html>
